@@ -1,0 +1,65 @@
+ASTHMA MODEL
+==================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Asthma_Pct   R-squared:                       0.088
+Model:                            OLS   Adj. R-squared:                  0.088
+Method:                 Least Squares   F-statistic:                     1411.
+Date:                Sun, 26 Apr 2026   Prob (F-statistic):               0.00
+Time:                        15:02:17   Log-Likelihood:            -1.0016e+05
+No. Observations:               58183   AIC:                         2.003e+05
+Df Residuals:                   58178   BIC:                         2.004e+05
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept       12.1228      0.036    333.962      0.000      12.052      12.194
+Days_PM25        0.0001      0.000      1.117      0.264   -9.53e-05       0.000
+Days_Ozone       0.0019      0.000     17.286      0.000       0.002       0.002
+Population_k    -0.1017      0.003    -30.579      0.000      -0.108      -0.095
+Income_k        -0.0190      0.000    -61.767      0.000      -0.020      -0.018
+==============================================================================
+Omnibus:                     3559.660   Durbin-Watson:                   0.462
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4780.342
+Skew:                           0.563   Prob(JB):                         0.00
+Kurtosis:                       3.838   Cond. No.                     1.22e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.22e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+COPD MODEL
+==================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               COPD_Pct   R-squared:                       0.247
+Model:                            OLS   Adj. R-squared:                  0.247
+Method:                 Least Squares   F-statistic:                     4768.
+Date:                Sun, 26 Apr 2026   Prob (F-statistic):               0.00
+Time:                        15:02:17   Log-Likelihood:            -1.3115e+05
+No. Observations:               58183   AIC:                         2.623e+05
+Df Residuals:                   58178   BIC:                         2.623e+05
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept       12.7930      0.062    206.919      0.000      12.672      12.914
+Days_PM25       -0.0028      0.000    -14.360      0.000      -0.003      -0.002
+Days_Ozone       0.0011      0.000      5.674      0.000       0.001       0.001
+Population_k    -0.2922      0.006    -51.589      0.000      -0.303      -0.281
+Income_k        -0.0619      0.001   -117.927      0.000      -0.063      -0.061
+==============================================================================
+Omnibus:                    10644.088   Durbin-Watson:                   0.928
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            29619.489
+Skew:                           0.981   Prob(JB):                         0.00
+Kurtosis:                       5.893   Cond. No.                     1.22e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.22e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

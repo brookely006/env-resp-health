@@ -1,0 +1,6 @@
+pandas
+requests
+statsmodels
+matplotlib
+seaborn
+numpy
