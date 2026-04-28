@@ -23,8 +23,8 @@ This analysis integrates three primary datasets:
 * **Visualization:** `matplotlib`, `seaborn`
 
 ## Key Findings
-* **The Income Effect:** Median household income is a vastly superior predictor of respiratory health than raw county level air quality metrics. Both asthma and COPD exhibit strong, statistically significant inverse relationships with neighborhood income.
-* **Asthma and PM2.5:** When holding population and income constant, the number of days with high PM2.5 is **not** a statistically significant predictor of asthma prevalence (p = 0.264).
+* **The Income Effect:** Median household income is a predictor of respiratory health. Lifestyle and biological variation become statistical variables in this dataset. 
+* **Asthma and PM2.5:** When comparing population and income constant, the number of days with high PM2.5 is **not** a primary determinant of asthma outbursts (p = 0.264). The statistical significance ultimately decreases between the two relations. 
 * **Model Strength:** The multivariate OLS model for COPD explained nearly 25% of the total nationwide variance (R-squared = 0.247), with socioeconomic status acting as the primary driver. 
 
 *(For the complete methodology, visualizations, and statistical breakdowns, please read the full research paper located in the `paper/` directory).*
